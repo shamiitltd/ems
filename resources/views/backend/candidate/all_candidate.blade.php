@@ -41,7 +41,7 @@
                                 <div class="page-title-box">
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
-       <a href="{{ route('add.candidate') }}" class="btn btn-primary rounded-pill waves-effect waves-light">Add Candidate </a>   
+       <a href="{{ route('add.candidate') }}" class="btn btn-primary rounded-pill waves-effect waves-light">Add new Candidate </a>   
                                         </ol>
                                     </div>
                                    
