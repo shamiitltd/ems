@@ -209,17 +209,17 @@ class FullCalendarController extends Controller{
 
                 'title' => $request->title,
                 'link_url' => $request->link_url,
-                'candidate_profile' => $save_url,
+                // 'candidate_profile' => $save_url,
                 'candidate_name' => $request->candidate_name,
                 'interpersonal_skill' => $request->interpersonal_skill,
                 'communication_skill' => $request->communication_skill,
                 'problem_sovling' => $request->problem_sovling,
-                'hr_profile' => $image_save,
+                // 'hr_profile' => $image_save,
                 'hr_name' => $request->hr_name,
                 'hr_email' => $request->hr_email,
                 'instruction' => $request->instruction,
-                'start' =>  $startDatetime,
-                'end' =>  $endDatetime,
+                // 'start' =>  $startDatetime,
+                // 'end' =>  $endDatetime,
                 'created_at' => Carbon::now(), 
 
         ]);

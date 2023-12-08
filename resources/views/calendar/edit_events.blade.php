@@ -3,14 +3,14 @@
 <center>
 <div class="page-content">
     <div class="container-fluid">
-        <div class="row justify-content-center"> <!-- Center content -->
-            <div class="col-md-7">
+        <div class="row justify-content-center  --bs-body-bg"> <!-- Center content -->
+            <div class="col-md-8">
                 <div class="card mt-3">
                     <div class="card-body">
-                        <h4 class="card-title text-center mb-4">Edit Event</h4>
-
+                        <h3 class="card-title text-center mb-4">Edit Event</h3>
                         <form method="post" action="{{ route('event.update', $event->id) }}">
                             @csrf
+
                             <div class="row">
                                 <div class="col-6">
                                     <label class="form-label">Title</label>
@@ -87,16 +87,12 @@
                   <input name="instruction" class="form-control" type="text"
                     id="example-text-input" value="{{ $event->instruction }}">
                             </div><br>
-
-                            <div>
-                               
+                            <div> 
                             </div><br>
-
-                            <div class="d-grid gap-2">
-                                <input type="submit" class="btn btn-info btn-block" style="background-color: #337ab7;color: white; border-color: #337ab7;"value="Update"> <!-- Styling for Update button -->
+                            <div>
+                                <input type="submit" class="btn btn-info" value="Update" style="color:black;"> <!-- Styling for Update button -->
                             </div>
                         </form>
-
                     </div>
                 </div>
             </div>
@@ -105,24 +101,3 @@
 </div>
 </center>
 @endsection
-<script type="text/javascript">
-
-  $(document).ready(function () {
-    $('#image').change(function (e) {
-      var reader = new FileReader();
-      reader.onload = function (e) {
-        $('#showImage').attr('src', e.target.result);
-      }
-      reader.readAsDataURL(e.target.files['0']);
-    });
-  });
-  $(document).ready(function () {
-    $('#image2').change(function (e) {
-      var reader = new FileReader();
-      reader.onload = function (e) {
-        $('#showImage2').attr('src', e.target.result);
-      }
-      reader.readAsDataURL(e.target.files['0']);
-    });
-  });
-</script>
