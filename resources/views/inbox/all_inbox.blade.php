@@ -1,10 +1,5 @@
 @extends('admin_dashboard')
 @section('admin')
-<head>
-    <style>
-
-    </style>
-</head>
 <div class="content">
 
 <!-- Start Content-->

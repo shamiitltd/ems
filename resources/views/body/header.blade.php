@@ -1,17 +1,13 @@
- <div class="navbar-custom">
+<head>
+    <style>
+        .navbar-custom{
+            background-color:white;
+        }
+    </style>
+</head>
+<div class="navbar-custom">
                 <div class="container-fluid">
                     <ul class="list-unstyled topnav-menu float-end mb-0">
-
-
-
-
-
-
-
-
-
-
-
         @php
          $id = Auth::user()->id;
          $adminData = App\Models\User::find($id);
@@ -23,7 +19,7 @@
                             <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
 
                                 <img src="{{ (!empty($adminData->photo)) ? url('upload/admin_image/'.$adminData->photo) : url('upload/no_image.jpg') }}" alt="user-image" class="rounded-circle">
-                                <span class="pro-user-name ms-1">
+                                <span class="pro-user-name ms-1" style="color:black;">
                                     {{ $adminData->name }} <i class="mdi mdi-chevron-down"></i>
                                 </span>
                             </a>
@@ -73,7 +69,7 @@
                                 <!-- <span class="logo-lg-text-light">UBold</span> -->
                             </span>
                             <span class="logo-lg">
-                                <img src="{{ asset('backend/assets/images/logo-dark.png') }}" alt="" height="20">
+                                <!-- <img src="{{ asset('backend/assets/images/logo-dark.png') }}" alt="" height="20"> -->
                                 <!-- <span class="logo-lg-text-light">U</span> -->
                             </span>
                         </a>
@@ -83,7 +79,8 @@
                                 <img src="{{ asset('backend/assets/images/logo-sm.png') }}" alt="" height="22">
                             </span>
                             <span class="logo-lg">
-                                <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="" height="20">
+                                <!-- <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="" height="20"> -->
+                                <img src="{{ asset('backend/assets/images/EMS-logo.png') }}" alt="" height="73">
                             </span>
                         </a>
                     </div>
