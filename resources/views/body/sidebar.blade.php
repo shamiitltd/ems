@@ -42,7 +42,7 @@
                 <li class="mt-2" id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/Bag 2.svg" alt="">
+                        <img src="backend/assets/images/Bag.svg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Jobs </span>
                     </a>
                 </li>
