@@ -30,7 +30,7 @@
 
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
-                        <img src="backend/assets/images/Calendar.svg" alt="">
+                        <img src="backend/assets/images/Calendar.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Calendar & todo’s </span>
                     </a>
                 </li>
