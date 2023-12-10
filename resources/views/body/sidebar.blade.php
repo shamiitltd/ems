@@ -102,7 +102,7 @@
                 <li>
                     <a href="{{ url('/getevent') }}" id="change">
 
-                        <img src="backend/assets/images/Group.svg" alt="">
+                        <img src="backend/assets/images/Group.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Settings </span>
                     </a>
 
