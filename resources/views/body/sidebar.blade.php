@@ -46,7 +46,7 @@
                 <li id="change">
                     <a href="{{ url('/dashboard') }}">
 
-                        <img src="backend/assets/images/Union.svg" alt="" >
+                        <img src="backend/assets/images/Union.png" alt="" >
                         <span style="margin-left:7px;" id="mouhov"> Dashboard </span>
                     </a>
                 </li>
@@ -54,14 +54,14 @@
 
                 <li id="change">
                     <a href="{{ route('pos') }}">
-                        <img src="backend/assets/images/clarity_inbox-line.svg" alt="">
+                        <img src="backend/assets/images/clarity_inbox-line.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Inbox </span>
                     </a>
                 </li>
 
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
-                        <img src="backend/assets/images/Calendar.svg" alt="">
+                        <img src="backend/assets/images/Calendar.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Calendar & todo’s </span>
                     </a>
                 </li>
@@ -73,7 +73,7 @@
                 <li class="mt-2" id="change">
                     <a href="{{ route('hiring.employee') }}">
 
-                        <img src="backend/assets/images/Bag 2.svg" alt="">
+                        <img src="backend/assets/images/Bag 2.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Jobs </span>
                     </a>
                 </li>
@@ -81,7 +81,7 @@
                 <li id="change">
                     <a href="{{ route('all.candidate') }}">
 
-                        <img src="backend/assets/images/octicon_people-24.svg" alt="">
+                        <img src="backend/assets/images/octicon_people-24.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Candidates </span>
                     </a>
                 </li>
@@ -90,7 +90,7 @@
                 <li id="change">
                     <a href="{{ route('hiring.employee') }}">
 
-                        <img src="backend/assets/images/ph_triangle-bold.svg" alt="">
+                        <img src="backend/assets/images/ph_triangle-bold.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> My referrals </span>
                     </a>
                 </li>
@@ -99,7 +99,7 @@
                 <li id="change">
                     <a href="{{ route('hiring.employee') }}">
 
-                        <img src="backend/assets/images/fluent-mdl2_site-scan.svg" alt="">
+                        <img src="backend/assets/images/fluent-mdl2_site-scan.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Career site </span>
                     </a>
                 </li>
@@ -109,7 +109,7 @@
                 <li class="mt-2" id="change">
                     <a href="{{ route('all.employee') }}">
 
-                        <img src="backend/assets/images/iconamoon_profile-fill.svg" alt="">
+                        <img src="backend/assets/images/iconamoon_profile-fill.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Employee </span>
                     </a>
                 </li>
@@ -117,7 +117,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/ph_tree-structure-fill.svg" alt="">
+                        <img src="backend/assets/images/ph_tree-structure-fill.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Structure </span>
                     </a>
                 </li>
@@ -125,7 +125,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/Vector.svg" alt="">
+                        <img src="backend/assets/images/Vector.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Report </span>
                     </a>
                 </li>
@@ -133,7 +133,7 @@
                 <li>
                     <a href="{{ url('/getevent') }}" id="change">
 
-                        <img src="backend/assets/images/Group.svg" alt="">
+                        <img src="backend/assets/images/Group.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Settings </span>
                     </a>
 
