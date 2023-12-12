@@ -15,15 +15,15 @@
                 <li id="change">
                     <a href="{{ url('/dashboard') }}">
 
-                        <img src="backend/assets/images/Union.svg" alt="">
+                        <img src="backend/assets/images/Union.jpg" alt="">
                         <span style="margin-left:7px;" id="mouhov"> Dashboard </span>
                     </a>
                 </li>
-
+                <!-- shami65i_TEST_EMSSHAMIIT -->
 
                 <li id="change">
                     <a href="{{ route('inbox.all_inbox') }}">
-                        <img src="backend/assets/images/clarity_inbox-line.svg" alt="">
+                        <img src="backend/assets/images/clarity_inbox-line.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Inbox </span>
                     </a>
                 </li>
@@ -42,7 +42,7 @@
                 <li class="mt-2" id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/Bag.svg" alt="">
+                        <img src="backend/assets/images/Bag 2.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Jobs </span>
                     </a>
                 </li>
@@ -50,7 +50,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/octicon_people-24.svg" alt="">
+                        <img src="backend/assets/images/octicon_people-24.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Candidates </span>
                     </a>
                 </li>
@@ -59,7 +59,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/ph_triangle-bold.svg" alt="">
+                        <img src="backend/assets/images/ph_triangle-bold.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> My referrals </span>
                     </a>
                 </li>
@@ -68,7 +68,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/fluent-mdl2_site-scan.svg" alt="">
+                        <img src="backend/assets/images/fluent-mdl2_site-scan.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Career site </span>
                     </a>
                 </li>
@@ -78,7 +78,7 @@
                 <li class="mt-2" id="change">
                     <a href="{{ route('all.employee') }}">
 
-                        <img src="backend/assets/images/employee.svg" alt="">
+                        <img src="backend/assets/images/iconamoon_profile-fill.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Employee </span>
                     </a>
                 </li>
@@ -86,7 +86,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/ph_tree-structure-fill.svg" alt="">
+                        <img src="backend/assets/images/ph_tree-structure-fill.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> structure </span>
                     </a>
                 </li>
@@ -94,7 +94,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/Vector.svg" alt="">
+                        <img src="backend/assets/images/Vector.jpg" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Report </span>
                     </a>
                 </li>
