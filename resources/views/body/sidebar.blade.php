@@ -15,7 +15,7 @@
                 <li id="change">
                     <a href="{{ url('/dashboard') }}">
 
-                        <img src="backend/assets/images/Union.jpg" alt="">
+                        <img src="backend/assets/images/Union.png" alt="">
                         <span style="margin-left:7px;" id="mouhov"> Dashboard </span>
                     </a>
                 </li>
@@ -30,7 +30,7 @@
 
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
-                        <img src="backend/assets/images/Calendar.jpg" alt="">
+                        <img src="backend/assets/images/Calendar.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Calendar & todo’s </span>
                     </a>
                 </li>
@@ -42,7 +42,7 @@
                 <li class="mt-2" id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/Bag 2.jpg" alt="">
+                        <img src="backend/assets/images/Bag 2.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Jobs </span>
                     </a>
                 </li>
@@ -50,7 +50,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/octicon_people-24.jpg" alt="">
+                        <img src="backend/assets/images/octicon_people-24.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Candidates </span>
                     </a>
                 </li>
@@ -59,7 +59,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/ph_triangle-bold.jpg" alt="">
+                        <img src="backend/assets/images/ph_triangle-bold.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> My referrals </span>
                     </a>
                 </li>
@@ -68,7 +68,7 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/fluent-mdl2_site-scan.jpg" alt="">
+                        <img src="backend/assets/images/fluent-mdl2_site-scan.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Career site </span>
                     </a>
                 </li>
@@ -78,7 +78,7 @@
                 <li class="mt-2" id="change">
                     <a href="{{ route('all.employee') }}">
 
-                        <img src="backend/assets/images/iconamoon_profile-fill.jpg" alt="">
+                        <img src="backend/assets/images/iconamoon_profile-fill.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Employee </span>
                     </a>
                 </li>
@@ -86,15 +86,15 @@
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/ph_tree-structure-fill.jpg" alt="">
-                        <span style="margin-left:5px;" id="mouhov"> structure </span>
+                        <img src="backend/assets/images/ph_tree-structure-fill.png" alt="">
+                        <span style="margin-left:5px;" id="mouhov"> Structure </span>
                     </a>
                 </li>
 
                 <li id="change">
                     <a href="{{ url('/getevent') }}">
 
-                        <img src="backend/assets/images/Vector.jpg" alt="">
+                        <img src="backend/assets/images/Vector.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Report </span>
                     </a>
                 </li>
@@ -102,7 +102,7 @@
                 <li>
                     <a href="{{ url('/getevent') }}" id="change">
 
-                        <img src="backend/assets/images/Group.jpg" alt="">
+                        <img src="backend/assets/images/Group.png" alt="">
                         <span style="margin-left:5px;" id="mouhov"> Settings </span>
                     </a>
 

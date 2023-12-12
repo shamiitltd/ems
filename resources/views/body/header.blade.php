@@ -3,6 +3,20 @@
         .navbar-custom{
             background-color:white;
         }
+        .iconapply{
+            width: 24px;
+height: 30.143px;
+flex-shrink: 0;
+        }
+        .hamiit{
+            color: #A1A1A1;
+font-family: Black Han Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 10px;
+margin-top:10px;
+        }
     </style>
 </head>
 <div class="navbar-custom">
@@ -25,8 +39,8 @@
                             </a>
                             <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
                                 <!-- item-->
-                                <div class="dropdown-header noti-title">
-                                    <h6 class="text-overflow m-0">Welcome !</h6>
+            <div class="dropdown-header noti-title">
+                                                        <h6 class="text-overflow m-0">Welcome !</h6>
                                 </div>
 
         <!-- item-->
@@ -80,7 +94,10 @@
                             </span>
                             <span class="logo-lg">
                                 <!-- <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="" height="20"> -->
-                                <img src="{{ asset('backend/assets/images/EMS-logo.png') }}" alt="" height="73">
+                                <!-- <img src="{{ asset('backend/assets/images/EMS-logo.png') }}" alt="" height="73"> -->
+                                <img src="{{ asset('backend/assets/images/LOGO.png') }}" alt="" height="73">
+                               <img src="{{ asset('backend/assets/images/Subject 2.png') }}" alt="" height="33" class="iconapply">
+                               <b class="hamiit">HAMIIT</b>
                             </span>
                         </a>
                     </div>
