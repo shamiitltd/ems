@@ -210,7 +210,7 @@ flex-shrink: 0;
 }
 #progressbar #step1:before { 
 	content: "Screening"
-	
+
 } 
 
 #progressbar #step2:before { 
@@ -258,7 +258,11 @@ flex-shrink: 0;
 #progressbar li.active:after { 
 	background:#FF8E00
 } 
-
+#step1{
+    width: 118px;
+height: 38.969px;
+flex-shrink: 0;
+}
         
     
     </style>
