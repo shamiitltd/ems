@@ -20,6 +20,8 @@
         <link href="{{ asset('backend/assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- App css -->
         <link href="{{ asset('backend/assets/css/app.min.css') }}" rel="stylesheet" type="text/css" id="app-style"/>
+        <!-- sidebar -->
+        <link href="{{ asset('backend/assets/css/style.css') }}" rel="stylesheet" type="text/css" id="app-style"/>
         <!-- icons -->
         <link href="{{ asset('backend/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- Head js -->
@@ -49,7 +51,7 @@
     </head>
 
     <!-- body start -->
-    <body data-layout-mode="default" data-theme="light" data-topbar-color="dark" data-menu-position="fixed" data-leftbar-color="dark" data-leftbar-size='default' data-sidebar-user='false'>
+    <body data-layout-mode="default" data-theme="dark" data-topbar-color="dark" data-menu-position="fixed" data-leftbar-color="dark" data-leftbar-size='default' data-sidebar-user='false'>
 
         <!-- Begin page -->
         <div id="wrapper">
