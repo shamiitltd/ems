@@ -1,3 +1,6 @@
+
+
+
 <head>
     <style>
         .navbar-custom{
@@ -18,10 +21,24 @@ line-height: 10px;
 margin-top:10px;
         }
     </style>
-</head>
+
+</head>  
+
 <div class="navbar-custom">
                 <div class="container-fluid">
                     <ul class="list-unstyled topnav-menu float-end mb-0">
+                    <div class="first-block">
+					
+					
+				</div>
+				 
+
+
+
+<div class="navbar-custom">
+                <div class="container-fluid">
+                    <ul class="list-unstyled topnav-menu float-end mb-0">
+
         @php
          $id = Auth::user()->id;
          $adminData = App\Models\User::find($id);
@@ -94,7 +111,10 @@ margin-top:10px;
                             </span>
                             <span class="logo-lg">
                                 <!-- <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="" height="20"> -->
+
+
                                 <!-- <img src="{{ asset('backend/assets/images/EMS-logo.png') }}" alt="" height="73"> -->
+
                                 <img src="{{ asset('backend/assets/images/LOGO.png') }}" alt="" height="73">
                                <img src="{{ asset('backend/assets/images/Subject 2.png') }}" alt="" height="33" class="iconapply">
                                <b class="hamiit">HAMIIT</b>
